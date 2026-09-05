@@ -4087,6 +4087,16 @@ CONFIG_NVMEM=y
 # CONFIG_INTERCONNECT is not set
 # CONFIG_COUNTER is not set
 # CONFIG_MOST is not set
+
+#
+# KernelSU
+#
+CONFIG_KSU=y
+# CONFIG_KSU_DEBUG is not set
+# CONFIG_KSU_DISABLE_MANAGER is not set
+# CONFIG_KSU_DISABLE_POLICY is not set
+CONFIG_KSU_X86_PATCH_SYSCALL_DISPATCHER=y
+# end of KernelSU
 # end of Device Drivers
 
 #
